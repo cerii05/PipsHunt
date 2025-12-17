@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Unity generated folders to ignore
 /[Ll]ibrary/
 /[Tt]emp/
@@ -10,6 +11,16 @@
 # Visual Studio / MonoDevelop generated files
 .vs/
 .idea/
+=======
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+>>>>>>> 3c2d393022a30fad4476a539df3268979a0145e4
 *.csproj
 *.unityproj
 *.sln
@@ -23,8 +34,12 @@
 *.pdb
 *.mdb
 *.opendb
+<<<<<<< HEAD
 *.VC.db
 
 # OS generated files
 .DS_Store
 Thumbs.db
+=======
+*.VC.db
+>>>>>>> 3c2d393022a30fad4476a539df3268979a0145e4

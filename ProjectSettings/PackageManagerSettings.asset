@@ -25,7 +25,10 @@ MonoBehaviour:
     m_Scopes: []
     m_IsDefault: 1
     m_Capabilities: 7
+<<<<<<< HEAD
     m_ConfigSource: 0
+=======
+>>>>>>> 3c2d393022a30fad4476a539df3268979a0145e4
   m_UserSelectedRegistryName: 
   m_UserAddingNewScopedRegistry: 0
   m_RegistryInfoDraft:
