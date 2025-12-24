@@ -18,14 +18,12 @@ public class FinishPoint : MonoBehaviour
     {
         string currentSceneName = SceneManager.GetActiveScene().name;
         
-        // Jika ini Level 3, panggil Victory Panel di GameManager
         if (currentSceneName == "level3")
         {
             GameManager.instance.ShowVictoryScreen();
         }
         else
         {
-            // Jika level 1 atau 2, pindah level seperti biasa
             MoveToNextLevel(currentSceneName);
         }
     }

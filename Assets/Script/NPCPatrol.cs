@@ -7,10 +7,10 @@ public class NPCPatrol : MonoBehaviour
 {
     [Header("Settings")]
     public float speed = 2f;
-    public float waitTime = 1f; // Optional: Wait a bit at each point
+    public float waitTime = 1f; 
     
     [Header("Path")]
-    public Transform[] waypoints; // Drag your empty game objects here
+    public Transform[] waypoints;
 
     private int currentPointIndex = 0;
     private float waitCounter = 0f;
@@ -23,7 +23,6 @@ public class NPCPatrol : MonoBehaviour
 
     void Update()
     {
-        // Safety Check: If no points are assigned, do nothing
         if (waypoints.Length == 0) return;
 
         // 1. Identify the Target

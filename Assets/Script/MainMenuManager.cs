@@ -40,11 +40,4 @@ public class MainMenuManager : MonoBehaviour
         Debug.Log("Game Closing...");
         Application.Quit();
     }
-
-    // Fungsi tambahan jika ingin ada tombol Back di Panel_Guide
-    public void BackToMenu()
-    {
-        panelMenu.SetActive(true);
-        panelGuide.SetActive(false);
-    }
 }

@@ -6,7 +6,7 @@ using UnityEngine;
 public class NPCChase : MonoBehaviour
 {
     [Header("UI Settings")]
-    public GameObject bustedScreen; // NEW: Drag your "Busted" Text/Panel here
+    public GameObject bustedScreen; 
 
     [Header("Target")]
     public Transform player;
@@ -14,7 +14,7 @@ public class NPCChase : MonoBehaviour
     [Header("Vision Settings")]
     public float detectionRange = 4f;
     public float escapeRange = 7f;
-    public float catchRange = 1.0f; // How close to trigger "Game Over"
+    public float catchRange = 1.0f; 
     public Color debugColor = Color.red;
 
     [Header("Movement Settings")]
